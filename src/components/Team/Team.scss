@@ -1,0 +1,31 @@
+.single_team_member{
+    img{
+        height: 400px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .team-social{
+        margin-top: 15px;
+        a{
+            width: 40px;
+            height: 40px;
+            border-radius: 2px;
+            background-color: #000;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 11px;
+            color: #fff;
+            transition: background-color 0.3s ease;
+            &:hover{
+                background-color: #d39191;
+            }
+            
+        }
+    }
+}

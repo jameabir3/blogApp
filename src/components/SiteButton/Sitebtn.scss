@@ -1,0 +1,12 @@
+.site_btn {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 26px;
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: #d39191;
+    }
+    
+    
+}
