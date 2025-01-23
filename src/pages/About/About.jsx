@@ -10,6 +10,7 @@ import { teams } from '../../faker/team';
 import { aboutContent } from '../../faker/about';
 import { Link } from 'react-router-dom';
 import Sitebtn from '../../components/SiteButton/Sitebtn';
+import Content from '../../components/Content/Content';
 
 const About = () => {
   return (
@@ -24,6 +25,11 @@ const About = () => {
                             titleText = "About Us"
                             subTitleText = "We're a team of talented and dedicated professionals"
                         />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <Content/>
                     </div>
                 </div>
                 <div className="row">
